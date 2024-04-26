@@ -49,6 +49,7 @@ Make sure to create the relationships between the tables, so the database is pop
 
 ```ruby
 User.find_by(name: "John Doe").posts
+```
 
 2. Find all the tags that belong to a post with the title "Post 1".
 
