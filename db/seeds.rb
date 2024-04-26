@@ -13,7 +13,7 @@ User.delete_all
 Tag.delete_all
 
 users = [
-  User.create(name: 'Jhon Doe', email: 'jhon.doe@example.com', password: 'password1'),
+  User.create(name: 'John Doe', email: 'john.doe@example.com', password: 'password1'),
   User.create(name: 'Gerardo Montana', email: 'gerardo.montana@example.com', password: 'password2'),
   User.create(name: 'Eric Torrealba', email: 'eric.torrealba@example.com', password: 'password3'),
   User.create(name: 'Pedro Cofre', email: 'pedro.cofre@example.com', password: 'password4'),
